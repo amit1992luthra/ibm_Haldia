@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.004725">
+<testcase classname="Login Feature" name="Verify Dashboard" time="0.004725">
+<skipped><![CDATA[Given User is on the application............................................skipped
+When user clicks on login link..............................................skipped
+And enter "user1" and "amit1234"............................................skipped
+And user navigate to the dashboard..........................................skipped
+And Company logo display dkcnjerkfjefknefk..................................skipped
+When user navigates to instagram............................................skipped
+And enter the "user1" and "amit1234"........................................skipped
+Then Instagram dashboard will be display....................................skipped
+When User sign up with the values "user1" and "amit1234"....................undefined
+]]></skipped>
+</testcase>
+</testsuite>

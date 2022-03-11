@@ -1,0 +1,185 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "common test steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 32600,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User is on the application",
+            "match": {
+              "location": "StepDefination.user_is_on_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-07T09:07:28.553Z",
+        "before": [
+          {
+            "result": {
+              "duration": 603800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.init()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify Dashboard",
+        "description": "",
+        "id": "login-feature;verify-dashboard;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 7900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on login link",
+            "match": {
+              "location": "StepDefination.user_clicks_on_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7600,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "enter \"user1\" and \"amit1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user1\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"amit1234\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefination.enter_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6900,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user navigate to the dashboard",
+            "match": {
+              "location": "StepDefination2.user_navigate_to_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6400,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Company logo display dkcnjerkfjefknefk",
+            "match": {
+              "location": "StepDefination.company_logo_display_dkcnjerkfjefknefk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6500,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user navigates to instagram",
+            "match": {
+              "location": "StepDefination.user_navigates_to_instagram()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6300,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "enter the \"user1\" and \"amit1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user1\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"amit1234\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefination.enter_the_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6200,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Instagram dashboard will be display",
+            "match": {
+              "location": "StepDefination.instagram_dashboard_will_be_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "User sign up with the values \"user1\" and \"amit1234\"",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amit"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/demo.feature",
+    "tags": []
+  }
+]
